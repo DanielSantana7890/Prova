@@ -1,0 +1,21 @@
+1- Importei modulos novos de operadores;
+
+2- Desativei o comentario que estava impedindo de digitar o botao.clicked.connect;
+
+3- Criei acoes e que retorna uma funcao lambda para capturar individualmente o texto do botao;
+
+4- Instanciacao com Parametros em calcular, corrigindo o erro do __init__ e chamando OPERACOES.CALCULAR sem nada adicional;
+
+5- Entrada de dados no DIGITAR e VALOR_DO_VISOR;
+
+6- Logica para impedir multiplas virgulas e tratar o zero inicial;
+
+7- Formatacao do Resultado;
+
+8- Funcoes Utilitarias: 
+
+Limpar:(Redefinicao de todos os atributos internos sendo eles (digitado,primeiro,classe,simbolo,zerar e dos textos do QLabel))
+
+Apagar:(Fatiamento de string([:-1]) para remover o último caractere.)
+
+inverter_sinal:(Multiplicacao do valor atual por -1)
